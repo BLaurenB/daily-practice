@@ -18,6 +18,13 @@ def digital_root(n):
   return n
 
 
+# Other options after looking at other answers...
+# def digital_root(n):
+#     while (n > 9):
+#         n = sum(map(int,str(n)))
+#     return n
+
+
 
 print(digital_root(123))
 print(digital_root(123456))
